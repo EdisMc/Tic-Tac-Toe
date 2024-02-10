@@ -1,0 +1,83 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("https://previews.123rf.com/images/fillvector/fillvector2107/fillvector210710773/172055426-line-tic-tac-toe-game-icon-isolated-on-white-background-colorful-outline-concept-vector.jpg"); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #760404;
+    margin-bottom: 20px;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.mode-selection {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.mode-selection ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.mode-selection li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.mode-selection a {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 18px;
+    background-color: #2196f3;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.message {
+    text-align: center;
+    font-size: 24px;
+    margin: 50px;
+    color: #333;
+}
+
+.reset-button {
+    display: block;
+    margin: 50px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 24px;
+  cursor: pointer;
+}
